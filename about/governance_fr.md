@@ -1,7 +1,8 @@
 ---
 layout: pages_left_nav
 
-namespace: about.governance
+namespace: about
+id: gouvernance
 lang: fr
 permalink: /fr/a-propos/gouvernance
 ---

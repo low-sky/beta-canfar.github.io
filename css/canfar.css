@@ -384,6 +384,14 @@ div.carousel-caption {
   width: 100%;
 }
 
+div.list-group-services > .list-group-item {
+  background-color: #f5f5f5;
+}
+
+div.list-group-services > .list-group-item:hover {
+  background-color: #fff;
+}
+
 #canfar-carousel > .carousel-inner > .item {
   width: 100%;
   -webkit-background-size: cover;

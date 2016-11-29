@@ -1,7 +1,8 @@
 ---
 layout: pages_left_nav
 
-namespace: about.contact
+namespace: about
+id: contact
 lang: fr
 permalink: /fr/a-propos/contact
 ---

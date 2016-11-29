@@ -1,7 +1,8 @@
 ---
 layout: pages_left_nav
 
-namespace: nodes.uvic
+namespace: nodes
+id: uvic
 lang: en
 permalink: /en/nodes/uvic
 ---

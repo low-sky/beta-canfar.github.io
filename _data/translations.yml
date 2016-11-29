@@ -1,110 +1,96 @@
 en:
-  login:
-    name: 'Login'
-    link: '/ac/login'
   science:
     name: 'Science'
   home:
     name: 'Home'
-    link: '/'
-  about:
-    name: 'About'
-    link: '/about'
-    organization:
-      name: 'Organization'
-      link: '/organization'
-    terms_of_reference:
-       name: 'Terms of Reference'
-       link: '/terms-of-reference'
-    governance:
-       name: 'Governance'
-       link: '/governance'
-    contact:
-       name: 'Contact'
-       link: '/contact'
-  nodes:
-    name: 'Nodes'
-    link: '/nodes'
-    nugrid:
-      name: 'NuGrid'
-      link: '/nugrid'
-    ngvs:
-      name: 'NGVS'
-      link: '/ngvs'
-    cadc:
-      name: 'CADC'
-      link: '/cadc'
-    uvic:
-      name: 'UVIC ARC'
-      link: '/uvic'
-  resources:
-    name: 'Resources'
-    link: '/resources'
-    expertise:
-      name: 'Expertise'
-      link: '/expertise'
+    uri: '/en/'
+  menu:
+    nodes:
+      name: 'Nodes'
+      uri: '/nodes'
+      nugrid:
+        name: 'NuGrid'
+        uri: '/nugrid'
+      ngvs:
+        name: 'NGVS'
+        uri: '/ngvs'
       cadc:
-        name: '@CADC'
-        link: '/cadc'
+        name: 'CADC'
+        uri: '/cadc'
       uvic:
-        name: '@UVic'
-        link: '/uvic'
-    services:
-      name: 'Services'
-      link: '/services'
-      cloud_portal:
-        name: Cloud Portal
-        link: http://www.canfar.phys.uvic.ca/processing/vmod/
-        doclink: http://www.canfar.net/docs/compute/
-      digital_object_identifiers:
-        name: Digital Object Identifiers
-        link: /digital-object-identifiers
-        doclink:
-      storage:
-        name: Storage
-        link: http://www.canfar.phys.uvic.ca/vosui
-        doclink: http://www.canfar.net/docs/vospace/
-      batch_processing:
-        name: Batch Processing
-        link: http://www.canfar.phys.uvic.ca/processing/batchjobs
-        doclink: http://www.canfar.net/docs/batch/
-      group_management:
-        name: Group Management
-        link: http://www.canfar.phys.uvic.ca/canfar/groups
-        doclink: http://www.canfar.phys.uvic.ca/ac/
-    documentation:
-      name: 'Documentation'
-      link: 'http://www.canfar.net/docs/home/'
-      storage:
-        name: 'Storage'
-        link: 'http://www.canfar.net/docs/vospace/'
-      computing:
-        name: 'Computing'
-        link: 'http://www.canfar.net/docs/compute/'
-      virtual_machine_management:
-        name: 'Virtual Machine Management'
-        link: 'http://www.canfar.net/docs/vms/'
-      batch_processing:
-        name: 'Batch Processing'
-        link: 'http://www.canfar.net/docs/batch/'
-      tutorial:
-        name: 'Tutorial'
-        link: 'http://www.canfar.net/docs/tutorial/'
-      api:
-        name: 'API'
-        link: 'http://www.canfar.net/docs/api/'
-      registration:
-        name: 'Registration'
-        link: 'http://www.canfar.net/docs/register/'
-    hardware:
-      name: 'Hardware'
-      link: '/hardware'
-      cores:
-        name: 'Cores'
-        link: '/cores'
-      disk_space:
-        name: 'Disk Space'
-        link: '/disk-space'
+        name: 'UVIC ARC'
+        uri: '/uvic'
+    resources:
+      name: 'Resources'
+      uri: '/resources'
+      expertise:
+        name: 'Expertise'
+        uri: '/expertise'
+        cadc:
+          name: '@CADC'
+          uri: '/cadc'
+        uvic:
+          name: '@UVic'
+          uri: '/uvic'
+      services:
+        name: 'Services'
+        uri: '/services'
+        cloud_portal:
+          name: 'Cloud Portal'
+          uri: 'http://www.canfar.phys.uvic.ca/processing/vmod/'
+          doclink: 'http://www.canfar.net/docs/compute/'
+        digital_object_identifiers:
+          name: 'Digital Object Identifiers'
+          uri: '/digital-object-identifiers'
+          doclink:
+        storage:
+          name: 'Storage'
+          uri: 'http://www.canfar.phys.uvic.ca/vosui'
+          doclink: 'http://www.canfar.net/docs/vospace/'
+        batch_processing:
+          name: 'Batch Processing'
+          uri: 'http://www.canfar.phys.uvic.ca/processing/batchjobs'
+          doclink: 'http://www.canfar.net/docs/batch/'
+        group_management:
+          name: 'Group Management'
+          uri: 'http://www.canfar.phys.uvic.ca/canfar/groups'
+          doclink: 'http://www.canfar.phys.uvic.ca/ac/'
+      documentation:
+        name: 'Documentation'
+        uri: 'http://www.canfar.net/docs/home/'
+        tutorial:
+          name: 'Tutorial'
+          uri: 'http://www.canfar.net/docs/tutorial/'
+        api:
+          name: 'API'
+          uri: 'http://www.canfar.net/docs/api/'
+      hardware:
+        name: 'Hardware'
+        uri: '/hardware'
+        cores:
+          name: 'Cores'
+          uri: '/cores'
+        disk_space:
+          name: 'Disk Space'
+          uri: '/disk-space'
+    about:
+      name: 'About'
+      uri: '/about'
+      organization:
+        name: 'Organization'
+        uri: '/organization'
+      terms_of_reference:
+         name: 'Terms of Reference'
+         uri: '/terms-of-reference'
+      governance:
+         name: 'Governance'
+         uri: '/governance'
+      contact:
+         name: 'Contact'
+         uri: '/contact'
+    login:
+      name: 'Login'
+      uri: '/ac/login'
   footer_github: 'on GitHub'
   toggle_navigation: 'Toggle navigation'
   showcase_taglines:
@@ -113,117 +99,108 @@ en:
     - 'NUGRID Stellar Evolution Tracks'
   next: 'Next'
   previous: 'Previous'
-  events:
-    name: 'Events and Seminars'
-    link: '/events-and-seminars'
-  news:
-    name: 'News'
-    link: '/news'
-  featured:
-    name: 'Featured Publications'
-    link: '/featured-publications'
 fr:
   login:
     name: 'Connexion'
-    link: '/ac/login'
+    uri: '/ac/login'
   science:
     name: 'Science'
   home:
     name: 'Acceuil'
-    link: '/'
+    uri: '/'
   about:
     name: 'À propos'
-    link: '/a-propos'
+    uri: '/a-propos'
     organization:
       name: 'Organisation'
-      link: '/organisation'
+      uri: '/organisation'
     terms_of_reference:
       name: 'Termes de référence'
-      link: '/termes-de-reference'
+      uri: '/termes-de-reference'
     governance:
       name: 'Gouvernance'
-      link: '/gouvernance'
+      uri: '/gouvernance'
     contact:
       name: 'Contact'
-      link: '/contact'
+      uri: '/contact'
   nodes:
     name: 'Nodes'
-    link: '/nodes'
+    uri: '/nodes'
     nugrid:
       name: 'NuGrid'
-      link: '/nugrid'
+      uri: '/nugrid'
     ngvs:
       name: 'NGVS'
-      link: '/ngvs'
+      uri: '/ngvs'
     cadc:
       name: 'CCDA'
-      link: '/ccda'
+      uri: '/ccda'
     uvic:
       name: 'UVIC ARC'
-      link: '/uvic'
+      uri: '/uvic'
   resources:
     name: 'Ressources'
-    link: '/ressources'
+    uri: '/ressources'
     expertise:
       name: 'Compétence'
-      link: '/competence'
+      uri: '/competence'
       cadc:
         name: 'CCDA'
-        link: '/ccda'
+        uri: '/ccda'
       uvic:
         name: '@UVic'
-        link: '/uvic'
+        uri: '/uvic'
     services:
       name: 'Services'
-      link: '/services'
+      uri: '/services'
       cloud_portal:
         name: 'Portail de cloud'
-        link: 'http://www.canfar.phys.uvic.ca/processing/vmod/'
+        uri: 'http://www.canfar.phys.uvic.ca/processing/vmod/'
       digital_object_identifiers:
         name: 'Identificateurs d''objects digitale'
-        link: '/identificateurs-objets-digitale'
+        uri: '/identificateurs-objets-digitale'
       storage:
         name: 'Stockage'
-        link: 'http://www.canfar.phys.uvic.ca/vosui'
+        uri: 'http://www.canfar.phys.uvic.ca/vosui'
       batch_processing:
         name: 'Le traitement par lots'
-        link: 'http://www.canfar.phys.uvic.ca/processing/batchjobs'
+        uri: 'http://www.canfar.phys.uvic.ca/processing/batchjobs'
       group_management:
         name: 'Gestion de groupes'
-        link: 'http://www.canfar.phys.uvic.ca/canfar/groups'
+        uri: 'http://www.canfar.phys.uvic.ca/canfar/groups'
     documentation:
       name: 'Documentation'
-      link: 'http://www.canfar.net/docs/home/'
+      uri: 'http://www.canfar.net/docs/home/'
       storage:
         name: 'Stockage'
-        link: 'http://www.canfar.net/docs/vospace/'
+        uri: 'http://www.canfar.net/docs/vospace/'
       computing:
         name: 'Calcule'
-        link: 'http://www.canfar.net/docs/compute/'
+        uri: 'http://www.canfar.net/docs/compute/'
       virtual_machine_management:
         name: 'Gestation des machines virtuelles'
-        link: 'http://www.canfar.net/docs/vms/'
+        uri: 'http://www.canfar.net/docs/vms/'
       batch_processing:
         name: 'Le traitement par lots'
-        link: 'http://www.canfar.net/docs/batch/'
+        uri: 'http://www.canfar.net/docs/batch/'
       tutorial:
         name: 'Tutoriel'
-        link: 'http://www.canfar.net/docs/tutorial/'
+        uri: 'http://www.canfar.net/docs/tutorial/'
       api:
         name: 'API'
-        link: 'http://www.canfar.net/docs/api/'
+        uri: 'http://www.canfar.net/docs/api/'
       registration:
         name: 'Enregistrer'
-        link: 'http://www.canfar.net/docs/register/'
+        uri: 'http://www.canfar.net/docs/register/'
     hardware:
       name: 'Matériel'
-      link: '/materiel'
+      uri: '/materiel'
       cores:
         name: 'Noyaux'
-        link: '/noyaux'
+        uri: '/noyaux'
       disk_space:
         name: 'Espace de disque'
-        link: '/espace-de-disque'
+        uri: '/espace-de-disque'
   footer_github: 'sur GitHub'
   toggle_navigation: 'Verser la navigation'
   showcase_taglines:
@@ -234,10 +211,10 @@ fr:
   previous: 'Précédent'
   events:
     name: 'Évenements et séminaires'
-    link: '/evenements-et-seminaires'
+    uri: '/evenements-et-seminaires'
   news:
     name: 'Nouvelles'
-    link: '/nouvelles'
+    uri: '/nouvelles'
   featured:
     name: 'Publications en vedette'
-    link: '/publications-en-vedette'
+    uri: '/publications-en-vedette'

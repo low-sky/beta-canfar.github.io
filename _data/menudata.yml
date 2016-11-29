@@ -1,3 +1,28 @@
-about: ['terms_of_reference', 'governance', 'organization', 'contact']
-nodes: ['nugrid', 'ngvs', 'cadc', 'uvic']
-resources: ['expertise', 'expertise.cadc', 'expertise.uvic', 'documentation', 'documentation.tutorial', 'documentation.api', 'services', 'services.cloud_portal', 'services.digital_object_identifiers', 'services.storage', 'services.batch_processing', 'services.group_management', 'hardware', 'hardware.cores', 'hardware.disk_space']
+# Names relate to the translations.yml
+nodes:
+  nugrid:
+  ngvs:
+  cadc:
+  uvic:
+resources:
+  expertise:
+    cadc:
+    uvic:
+  documentation:
+    tutorial:
+    api:
+  services:
+    cloud_portal:
+    digital_object_identifiers:
+    storage:
+    batch_processing:
+    group_management:
+  hardware:
+    cores:
+    disk_space:
+about:
+  terms_of_reference:
+  governance:
+  organization:
+  contact:
+login:

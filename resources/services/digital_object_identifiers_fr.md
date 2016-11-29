@@ -2,6 +2,7 @@
 layout: pages_left_nav
 
 lang: fr
-namespace: resources.services.digital_object_identifiers
+namespace: resources
+id: identificateurs-objets-digitale
 permalink: /fr/ressources/services/identificateurs-objets-digitale
 ---

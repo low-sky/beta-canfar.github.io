@@ -1,7 +1,8 @@
 ---
 layout: pages_left_nav
 
-namespace: about.terms_of_reference
+namespace: about
+id: terms_of_reference
 lang: en
 permalink: /en/about/terms-of-reference
 ---

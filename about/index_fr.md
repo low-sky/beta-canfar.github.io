@@ -6,3 +6,6 @@ lang: fr
 permalink: /fr/a-propos/
 ---
 
+<!-- Content starts -->
+
+<!-- Content ends -->

@@ -2,7 +2,8 @@
 layout: pages_left_nav
 
 lang: en
-namespace: nodes.cadc
+namespace: nodes
+id: cadc
 permalink: /en/nodes/cadc
 ---
 

@@ -2,7 +2,8 @@
 layout: pages_left_nav
 
 lang: fr
-namespace: nodes.ngvs
+namespace: nodes
+id: ngvs
 permalink: /fr/nodes/ngvs
 ---
 

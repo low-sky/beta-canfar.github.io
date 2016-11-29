@@ -1,7 +1,8 @@
 ---
 layout: pages_left_nav
 
-namespace: about.organization
+namespace: about
+id: organization
 lang: en
 permalink: /en/about/organization
 ---

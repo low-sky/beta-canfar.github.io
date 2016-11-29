@@ -1,7 +1,7 @@
 ---
 layout: pages_left_nav
 
-namespace: resources.services
-lang: fr
+namespace: resources
+id: services
 permalink: /fr/ressources/services/
 ---

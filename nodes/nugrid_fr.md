@@ -2,7 +2,8 @@
 layout: pages_left_nav
 
 lang: fr
-namespace: nodes.nugrid
+namespace: nodes
+id: nugrid
 permalink: /fr/nodes/nugrid
 ---
 

@@ -2,7 +2,8 @@
 layout: pages_left_nav
 
 lang: fr
-namespace: nodes.cadc
+namespace: nodes
+id: ccda
 permalink: /fr/nodes/ccda
 ---
 
