@@ -32,7 +32,7 @@ The description of the need or plan.
 * **Project web page:** 
 * **Node lead and contact:** Erik Rosolowsky
 * **People:**
-  * Erik Rosolowsky (University of Alberta): VLASS Canada lead
+  * Erik Rosolowsky (University of Alberta): VLASS Data and Archiving Co-Chair.
   
 
 
